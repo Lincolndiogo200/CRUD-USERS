@@ -26,6 +26,6 @@ app.use("/person", personRoutes);
 
 app.get("/", (_req, res) => {
   res.json({
-    message: "Oi Express!",
+    message: "Oi!",
   });
 });
